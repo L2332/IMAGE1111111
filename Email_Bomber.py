@@ -21,7 +21,7 @@ SENDER_PASSWORD = "ytnu gkoi gwvr vqqb"
 # ==================== IMAGE SETTINGS ====================
 # Set this to a folder containing .jpg/.png images to attach
 # Set to "" or None to disable image sending
-IMAGE_FOLDER = "IMAGE_FOLDER"  # <-- CHANGE THIS to your image folder path
+IMAGE_FOLDER = "CuteNyoAh.jpg"  # <-- CHANGE THIS to your image folder path
 # ============================================================
 
 # ==================== MESSAGE BODIES ====================
