@@ -21,7 +21,7 @@ SENDER_PASSWORD = "ytnu gkoi gwvr vqqb"
 # ==================== IMAGE SETTINGS ====================
 # Set this to a folder containing .jpg/.png images to attach
 # Set to "" or None to disable image sending
-IMAGE_FOLDER = "C:\Users\Administrator\Desktop\EmailBomber\ImageSend"  # <-- CHANGE THIS to your image folder path
+IMAGE_SOURCE = "CuteNyoAh.jpg"  # <-- CHANGE THIS to your image folder path
 # ============================================================
 
 # ==================== MESSAGE BODIES ====================
@@ -66,27 +66,37 @@ SUBJECTS = [
 
 
 def load_image_list():
-    """Load list of image files from the configured folder"""
-    if not IMAGE_FOLDER:
+    """Load image(s) from the configured path"""
+    if not IMAGE_SOURCE:
         return []
     
-    if not os.path.isdir(IMAGE_FOLDER):
-        print(f"{Fore.YELLOW}[!] Image folder '{IMAGE_FOLDER}' not found. Images disabled.{Style.RESET_ALL}")
-        return []
+    # If it's a single file
+    if os.path.isfile(IMAGE_SOURCE):
+        ext = os.path.splitext(IMAGE_SOURCE)[1].lower()
+        if ext in ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.webp']:
+            print(f"{Fore.GREEN}[✓] Using image: {IMAGE_SOURCE}{Style.RESET_ALL}")
+            return [IMAGE_SOURCE]
+        else:
+            print(f"{Fore.YELLOW}[!] File '{IMAGE_SOURCE}' is not a supported image format.{Style.RESET_ALL}")
+            return []
     
-    # Supported image extensions
-    extensions = ['*.jpg', '*.jpeg', '*.png', '*.gif', '*.bmp', '*.webp']
-    images = []
-    for ext in extensions:
-        images.extend(glob.glob(os.path.join(IMAGE_FOLDER, ext)))
-        images.extend(glob.glob(os.path.join(IMAGE_FOLDER, ext.upper())))
+    # If it's a folder
+    if os.path.isdir(IMAGE_SOURCE):
+        extensions = ['*.jpg', '*.jpeg', '*.png', '*.gif', '*.bmp', '*.webp']
+        images = []
+        for ext in extensions:
+            images.extend(glob.glob(os.path.join(IMAGE_SOURCE, ext)))
+            images.extend(glob.glob(os.path.join(IMAGE_SOURCE, ext.upper())))
+        
+        if not images:
+            print(f"{Fore.YELLOW}[!] No images found in '{IMAGE_SOURCE}'.{Style.RESET_ALL}")
+            return []
+        
+        print(f"{Fore.GREEN}[✓] Loaded {len(images)} images from '{IMAGE_SOURCE}'{Style.RESET_ALL}")
+        return images
     
-    if not images:
-        print(f"{Fore.YELLOW}[!] No images found in '{IMAGE_FOLDER}'. Images disabled.{Style.RESET_ALL}")
-        return []
-    
-    print(f"{Fore.GREEN}[✓] Loaded {len(images)} images from '{IMAGE_FOLDER}'{Style.RESET_ALL}")
-    return images
+    print(f"{Fore.YELLOW}[!] '{IMAGE_SOURCE}' not found. Images disabled.{Style.RESET_ALL}")
+    return []
 
 
 def attach_image(msg, image_path):
