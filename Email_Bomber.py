@@ -28,25 +28,24 @@ IMAGE_SOURCE = "Dw5q4wFU8AA54-G.jpg"  # <-- CHANGE THIS to your image folder pat
 MESSAGE_BODIES = [
     " Security Alert: Unauthorized access detected.🙂",
     " Your account has been compromised. Change password immediately.😄",
-    "HI LLOYD HEHEHEHE 16  ",
-    "HI LLOYD HEHEHEHE 15",
-    "HI LLOYD HEHEHEHE 14 ",
+    " This is a security test. No action needed.",
+    " Important: Your login credentials were found in a data breach.",
+    " Your data has been secured. Thank you for your cooperation.",
     " Our systems detected unusual activity from your IP.",
-    "HI LLOYD HEHEHEHE 13 ",
-    "HI LLOYD HEHEHEHE 12 ",
-    "HI LLOYD HEHEHEHE 11 ",
-    "HI LLOYD HEHEHEHE 10 ",
-    "HI LLOYD HEHEHEHE 9",
+    " This is an automated security notification.",
+    " Action required: Verify your email address.",
+    " A new device logged into your account.",
+    " Your privacy is important to us. Please review our policy.",
+    " Security update: Two-factor authentication now available.",
     " Your account has been flagged for review.",
     " System maintenance scheduled for tonight.",
-    "HI LLOYD HEHEHEHE 8",
-    "HI LLOYD HEHEHEHE 1",
-    "HI LLOYD HEHEHEHE 2",
-    "HI LLOYD HEHEHEHE 3",
-    "HI LLOYD HEHEHEHE 4",
-    "HI LLOYD HEHEHEHE 5",
-    "HI LLOYD HEHEHEHE 6",
-    "HI LLOYD HEHEHEHE 7",
+    " Welcome to our security awareness program.",
+    " We're here to help. Contact support if needed.",
+    " This is a test. No response required.",
+    " Your email is safe. This is a drill.",
+    " Security check: Please confirm your identity.",
+    " Phishing attempt detected. Stay vigilant.",
+    " Your account is not 😎."
 ]
 
 SUBJECTS = [
@@ -60,8 +59,6 @@ SUBJECTS = [
     "Security Test",
     "Notification from Security Team",
     "Alert: Unusual Activity",
-    "CHEATER ALERT",
-    "PICTURE NI BEBE NYA",
 ]
 
 
