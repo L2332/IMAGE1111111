@@ -15,38 +15,38 @@ init(autoreset=True)
 
 # ==================== YOUR CREDENTIALS ====================
 SENDER_EMAIL = "tyranroot@gmail.com"
-SENDER_PASSWORD = "ytnu gkoi gwvr vqqb"
+SENDER_PASSWORD = "vyjr axtx ztgx ptvq"
 # ============================================================
 
 # ==================== IMAGE SETTINGS ====================
 # Set this to a folder containing .jpg/.png images to attach
 # Set to "" or None to disable image sending
-IMAGE_SOURCE = "CuteNyoAh.jpg"  # <-- CHANGE THIS to your image folder path
+IMAGE_SOURCE = "Dw5q4wFU8AA54-G.jpg"  # <-- CHANGE THIS to your image folder path
 # ============================================================
 
 # ==================== MESSAGE BODIES ====================
 MESSAGE_BODIES = [
-    "⚠️ Security Alert: Unauthorized access detected.🙂",
-    "🔐 Your account has been compromised. Change password immediately.😄",
-    "💀 This is a security test. No action needed. Testing fuck You🤣",
-    "🎯 Important: Your login credentials were found in a data breach.",
-    "🌑 Your data has been secured. Thank you for your cooperation.",
-    "🔥 Our systems detected unusual activity from your IP.",
-    "📡 This is an automated security notification.",
-    "⚡ Action required: Verify your email address.",
-    "🕷️ A new device logged into your account.",
-    "🎭 Your privacy is important to us. Please review our policy.",
-    "🔓 Security update: Two-factor authentication now available.",
-    "📀 Your account has been flagged for review.",
-    "⚙️ System maintenance scheduled for tonight.",
-    "🎪 Welcome to our security awareness program.",
-    "🔮 CHEATER KANG KUPAL KA HA! YARE SAKEN MGA ACCOUNT MO! PATI INFO MO.",
-    "✅ CHEATER KANG KUPAL KA HA! YARE SAKEN MGA ACCOUNT MO! PATI INFO MO.",
-    "📧 CHEATER KANG KUPAL KA HA! YARE SAKEN MGA ACCOUNT MO! PATI INFO MO.",
-    "🔒 CHEATER KANG KUPAL KA HA! YARE SAKEN MGA ACCOUNT MO! PATI INFO MO.",
-    "⚠️ CHEATER KANG KUPAL KA HA! YARE SAKEN MGA ACCOUNT MO! PATI INFO MO.",
-    "🛡️ CHEATER KANG KUPAL KA HA! YARE SAKEN MGA ACCOUNT MO! PATI INFO MO. 😎.",
-    "CHEATER KANG KUPAL KA HA! YARE SAKEN MGA ACCOUNT MO! PATI INFO MO.",
+    " Security Alert: Unauthorized access detected.🙂",
+    " Your account has been compromised. Change password immediately.😄",
+    "HI LLOYD HEHEHEHE 16  ",
+    "HI LLOYD HEHEHEHE 15",
+    "HI LLOYD HEHEHEHE 14 ",
+    " Our systems detected unusual activity from your IP.",
+    "HI LLOYD HEHEHEHE 13 ",
+    "HI LLOYD HEHEHEHE 12 ",
+    "HI LLOYD HEHEHEHE 11 ",
+    "HI LLOYD HEHEHEHE 10 ",
+    "HI LLOYD HEHEHEHE 9",
+    " Your account has been flagged for review.",
+    " System maintenance scheduled for tonight.",
+    "HI LLOYD HEHEHEHE 8",
+    "HI LLOYD HEHEHEHE 1",
+    "HI LLOYD HEHEHEHE 2",
+    "HI LLOYD HEHEHEHE 3",
+    "HI LLOYD HEHEHEHE 4",
+    "HI LLOYD HEHEHEHE 5",
+    "HI LLOYD HEHEHEHE 6",
+    "HI LLOYD HEHEHEHE 7",
 ]
 
 SUBJECTS = [
